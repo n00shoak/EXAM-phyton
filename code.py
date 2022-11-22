@@ -197,4 +197,8 @@ while end == 0 :
 
 print ("end ")
 
+#pour en faire un jeu de puissance 4, il aurais fallus : 
+# 1 rajouter des cases 
+# 2 modifier le placement selon si oui ou non il y a un espace vide en dessous
+# 3 amélioré le système de détection de vicoire
    
