@@ -71,6 +71,7 @@ print (ligneC)
 # ajout du symbole
 end = 0
 player = "O"
+turn = 0
 while end == 0 :
     
     # joueur O :
@@ -194,6 +195,15 @@ while end == 0 :
         player = "x"
     elif player == "x" :
         player = 'O'
+
+    #clear full board
+    if turn == 9 :
+        turn = 0
+        ligneA = ["0","0","0"]
+        ligneB = ["0","0","0"]
+        ligneC = ["0","0","0"]
+
+    turn += 1
 
 print ("end ")
 
