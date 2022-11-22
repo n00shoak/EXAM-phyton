@@ -47,3 +47,10 @@ for b in range (len(myTable)):
 
 print("après tri a bulle :")
 print(myTable)
+
+# partie 4 :
+#  1- le tr à bulles est considéré comme très lent car il nécéssite un nombres d'actions important 
+# démultiplier par la longueur du tableau
+#  2- si l'ont pars du principe qu'une actions nécéssite une seul frame pour s'executer : 
+# le tableau mets alors : ((3 frames * longueur du tableau) +1) * longueur du tableau
+# le nombre de frame par seconde lui est dépendant du système executant le programme
